@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eef2f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+
+.container {
+    width: 95%;
+    max-width: 1100px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 48px;
+    color: #2d3e50;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #7a7a7a;
+    font-size: 20px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+caption {
+    caption-side: top;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2d3e50;
+}
+
+
+th,
+td {
+    border: 1px solid #d9dee5;
+    padding: 18px;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+thead th {
+    background: #2f4054;
+    color: white;
+    font-weight: bold;
+}
+
+thead tr:nth-child(2) th {
+    background: #2f4054;
+}
+
+
+.name {
+    background: #eceff1;
+    font-weight: bold;
+    color: #2d3e50;
+}
+
+
+tbody tr:nth-child(even) td {
+    background: #f8f9fb;
+}
+
+
+.pass {
+    color: #15803d;
+    font-weight: bold;
+}
+
+
+tbody tr:nth-child(5) td:last-child {
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+
+.total-row td {
+    background: #d9f2e4;
+    color: #176b4d;
+    font-weight: bold;
+}
+
+
+tbody tr:hover td {
+    background: #eef6ff;
+    transition: 0.3s;
+}
