@@ -1,1 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1>Student Result Table</Table></h1>
+        <p>HTML Table - rowspan, colspan aur styling ka istemaal</p>
+    </header>
+    <main>
+<table>
+    <caption>Class 10th - Annual Examination Result</caption>
+    <thead>
+        <tr>
+<th scope="col" rowspan="2">Roll No</th>
+<th scope="col" rowspan="2">Student Name</th>
+<th scope="col" colspan="3">Subject(marks)</th>
+<th rowspan="2">Total</th>
+<th rowspan="2">Result</th>
+</tr>
+<tr>
+<th scope="col">Math</th>
+<th scope="col">Science</th>
+<th>English</th>
+        </tr>
+    </thead>
+    <tbody>
+<tr>
+    <td rowspan="2">101</td>
+    <td rowspan="2"  class="name">Ali Hassan</td>
+    <td>85</td>
+    <td>78</td>
+    <td >90</td>
+    <td >253</td>
+    <td class="pass">Pass</td>
+</tr>
+<tr>
+    <td colspan="3">Grade:A</td>
+    <td colspan="2">Position:1st</td>
+</tr>
+<tr>
+    <td rowspan="2">102</td>
+    <td rowspan="2" class="name">Sara Khan</td>
+    <td>60</td>
+    <td>55</td>
+    <td>70</td>
+    <td>185</td>
+    <td class="pass">Pass</td>
+</tr>
+<tr>
+    <td colspan="3">Grade:B</td>
+    <td colspan="2">Position:2nd</td>
+</tr>
+<tr>
+        <td rowspan="2">103</td>
+    <td rowspan="2" class="name">Bilal Ahmed</td>
+    <td>30</td>
+    <td>25</td>
+    <td>40</td>
+    <td>95</td>
+    <td class="fail">Fail</td>
+</tr>
+<tr>
+    <td colspan="3">Grade:F</td>
+    <td colspan="2">Positio:-</td>
+</tr>
+<tr class="total-row">
+    <td colspan="2">Class Total</td>
+    <td>175</td>
+    <td>158</td>
+    <td>200</td>
+    <td>533</td>
+    <td>-</td>
+</tr>
+    </tbody>
+</table>
 
+    </main>
+    </div>
+</body>
+</html>
